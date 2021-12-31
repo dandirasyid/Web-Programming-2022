@@ -1,0 +1,28 @@
+#container {
+  padding: 25px;
+}
+img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.baris {
+  display: flex;
+  height: 45%;
+  margin-bottom: 8px;
+  justify-content: space-around;
+}
+
+.box-gede {
+  width: 100%;
+  margin-right: 15px;
+}
+.box-kecil {
+  width: 100%;
+  margin-right: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

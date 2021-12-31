@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan Barang</title>
+</head>
+<body style="background-color: #ebeddf;">
+    <div style="margin-bottom: 25px;">
+        <nav style="align-items: center; background-color: silver; padding: 0 15px; border: 1px solid black;">
+            <ul style="display: flex; list-style: none; justify-content: space-between; padding: 0 15px;">
+                <li><a href="#" style="text-decoration: none; color: black;">Home</a></li><li>|</li>
+                <li><a href="#" style="text-decoration: none; color: black;">Generate Link</a></li><li>|</li>
+                <li><a href="#" style="text-decoration: none; color: black;">Transaction History</a></li><li>|</li>
+                <li><a href="#" style="text-decoration: none; color: black;">Policy</a></li><li>|</li>
+                <li></li><a href="#" style="text-decoration: none; color: black;">Logout</a>
+            </ul>
+        </nav>
+    </div>
+    <div style="display: flex;">
+        <table style="width: 20%; height: 60%;">
+            <tr>
+                <td><img src="image/ipadpro.jpg" style="width: 150%;"></td>
+            </tr>
+            <tr>
+                <td>
+                    <button style="width: 150%; background-color: silver;">Upload Picture</button>
+                </td>
+            </tr>
+        </table> 
+        <table style="display: flex; padding: 0 12%;">
+            <tr>
+                <td>Title Here :</td>
+                <td><input type="text" value="Ipad Pro $1000" style="width: 310px;"></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: unset;">Description :</td>
+                <td>
+                    <textarea name="" id="" cols="40" rows="5">Year : 2019
+Model : Pro
+Condition : Mint</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Account Number :</td>
+                <td><input type="text" placeholder="123-456-789-0" style="width: 310px;"></td>
+            </tr>
+            <tr>
+                <td>Bank :</td>
+                <td>
+                    <select style="width: 250px;">
+                        <option>Bank BNI</option>
+                        <option>Bank BCA</option>
+                        <option>Bank BRI</option>
+                        <option>Bank Mandiri</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Account Holder :</td>
+                <td><input type="text" placeholder="Name Here" style="width: 310px;"></td>
+            </tr>
+            <tr>
+                <td>Transaction :<br></td>
+                <td><input type="number" max="3" min="1" value="1" style="width: 30px;"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>*if the transaction is for 3 person, choose 3 from the drop down list</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <form>
+                        <font style="color: #2eb80b;"><input type="checkbox">Send to Mobile Phone</font>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <form>
+                        <font style="color: #2eb80b;"><input type="checkbox">Send to Email</font>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Send to Mobile Phone :</td>
+                <td><input type="text" placeholder="1234567890, 1234567891" style="width: 310px;"></td>
+            </tr>
+            <tr>
+                <td>Send to Email</td>
+                <td><input type="text" placeholder="lorem@gmail.com, ipsum@ac.id" style="width: 310px;"></td>
+            </tr>
+            <tr style="height: 100px;">
+                <td></td>
+                <td>
+                    <input type="button" value="Generate Nabr Link" style="align-items: center; width: 200px; background-color: #38cf13; color: white;">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

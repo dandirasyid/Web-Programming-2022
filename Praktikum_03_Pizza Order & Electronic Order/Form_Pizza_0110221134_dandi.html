@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pizza</title>
+</head>
+<body style="background-color:#f7f2ba">
+    <div style="margin:auto; border: 1px solid black; width: 50%; padding: 25px; background-color: #e6de8a;">
+        <div>
+            <h2>Black Goose Bistro | Pizza-on-Demand</h2>
+        </div>
+        <div>
+            <p>Our 12" wood-fired pizzas are available for delivery. Build your costum pizza and we'll deliver it within an hour.</p>
+        </div>
+        <div>
+            <p style="margin-block-start: 0.5em; margin-block-end: 0.5em;">Your Information</p>
+            <p style="margin-block-start: 0.25em; margin-block-end: 0.25em;">Name: <input type="text"></p>
+            <p style="margin-block-start: 0.25em; margin-block-end: 0.25em;">Address: <input type="text"></p>
+            <p style="margin-block-start: 0.25em; margin-block-end: 0.25em;">Telephone Number <input type="tel"></p>
+            <p style="margin-block-start: 0.25em; margin-block-end: 0.25em;">Email: <input type="email"></p>
+        </div>
+        <div>
+            <p>Delivery Instructions</p>
+            <textarea name="Delivery Instructions" id="" cols="50" rows="5" placeholder="No more than 400 characters long" maxlength="400"></textarea>
+        </div>
+        <div>
+            <p><b>Design Your Dream Pizza:</b><br>
+                Pizza Specs
+            </p>
+        </div>
+        <div>
+            <p style="margin-block-start: 0.25em; margin-block-end: 0.25em;">Crust (Choose one):</p>
+            <ol style="list-style: none; padding-inline-start: 5px; margin-block-start: 0.25em; margin-block-end: 0.25em;">
+                <li>(<input type="radio" name="Crust">) Classic White</li>
+                <li>(<input type="radio" name="Crust">) Multigrin</li>
+                <li>(<input type="radio" name="Crust">) Cheese-stuffed crust</li>
+                <li>(<input type="radio" name="Crust">) Gluten-free</li>
+            </ol>
+        </div>
+        <div>
+            <p style="margin-block-start: 0.25em; margin-block-end: 0.25em;">Toppings (Choose as many as you want):</p>
+            <form>
+                <ul style="list-style: none; padding-inline-start: 5px; margin-block-start: 0.25em; margin-block-end: 0.25em;">
+                    <li>[<input type="checkbox" name="toppings" checked>] Red Sauce</li>
+                    <li>[<input type="checkbox" name="toppings">] White Sauce</li>
+                    <li>[<input type="checkbox" name="toppings">] Mozzarella Cheese</li>
+                    <li>[<input type="checkbox" name="toppings">] Pepperoni</li>
+                    <li>[<input type="checkbox" name="toppings">] Mushrooms</li>
+                    <li>[<input type="checkbox" name="toppings">] Peppers</li>
+                    <li>[<input type="checkbox" name="toppings">] Anchovies</li>
+               </ul>
+            </form>
+        </div>
+        <div>
+            <p>Number</p>
+            <p>How Many Pizza:
+                <input type="number" min="1" max="6" step="1" value="1">
+            </p>
+        </div>
+        <div>
+            <input type="button" value="Bring me a pizza">
+            <input type="button" value="Reset">
+        </div>
+    </div> 
+</body>
+</html>
