@@ -137,13 +137,15 @@ html {
 }
 
 .side-nav a:hover {
-  color: #1e1e1e;
+  color: white;
 }
 
-.nav-item .nav-link {
+.nav-item1 .nav-link {
   color: white !important;
 }
-
+.nav-item .nav-link {
+  color: #1e1e1e !important;
+}
 .nav-item a:hover {
   font-weight: bold;
 }
