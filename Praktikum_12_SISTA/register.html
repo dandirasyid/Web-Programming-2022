@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Register</title>
+</head>
+<body>
+  <div class="bg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <img src="star-admin2-free-admin-template-main/template/images/logo_sista.jpeg" alt="" style="width: 40px;">
+        <a class="navbar-brand ms-2" href="#">SISTA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="landing_sista.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="info_seminar.html">Jadwal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="daftar_sidang_seminar.html">Daftar Seminar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Berita</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="ms-auto">
+          <a class="btn btn-success" href="login_sista.html">Login</a>
+        </div>
+      </div>
+    </nav>
+        <class="container my-5">
+              <div class="row">
+                  <h1 class="display-6 text-center fw-bold pb-3 pt-3 text-light">Registrasi User</h1>
+                  <div class="col-sm-12 col-md-8 col-lg-6 col-8 border m-auto p-4 rounded">
+                      <form onsubmit="return redirectMe();">
+                          <div class="row mb-3">
+                            <label for="inputText1" class="col-sm-4 col-form-label text-light">Cari Mahasiswa</label>
+                            <div class="col-sm-8">
+                                    <div class="row">
+                                        <div class="col-sm-9 col-8">
+                                            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                                        </div>
+                                        <button class="col-auto btn btn-outline-light" type="submit">Search</button>
+                                    </div>
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <label for="inputText1" class="col-sm-4 col-form-label text-light">Nama Mahasiswa</label>
+                            <div class="col-sm-8">
+                              <input type="text" class="form-control" id="inputText1" readonly value="Dandi Rasyid">
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <label for="inputText2" class="col-sm-4 col-form-label text-light">Asal Prodi</label>
+                            <div class="col-sm-8">
+                              <input type="text" class="form-control" id="inputText2" readonly value="Teknik Informatika">
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <label for="inputText3" class="col-sm-4 col-form-label text-light">Username</label>
+                            <div class="col-sm-8">
+                              <input type="text" class="form-control" id="inputText3" required>
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <label for="inputPassword3" class="col-sm-4 col-form-label text-light">Password</label>
+                            <div class="col-sm-8">
+                              <input type="password" class="form-control" id="inputPassword3" required>
+                            </div>
+                          </div>
+                          <div class="row align-items-center justify-content-end">
+                              <button type="submit" class="btn btn-primary col-4">Sign in</button>
+                          </div>
+                        </form>
+                  </div>
+                </div>
+  </div>
+
+</body>
+  <script>
+    function redirectMe() {
+    window.location.replace("admin_kelola_seminar.html");
+    return false;
+    }
+  </script>
+    <script src="assets/js/bootstrap.js"></script>
+</html>
